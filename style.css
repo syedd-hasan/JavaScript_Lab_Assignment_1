@@ -6,17 +6,16 @@ h3,h4{
 }
 button{
     border: none;
-    background-color: darkcyan;
+    background-color: #0ed1ca;
     width:100px;
     height:60px;
-    transition: background-color 500ms;
-    margin:2px;
-    color: white;
+    transition: background-color 500ms ease-out;
+    margin:10px;
+    color: #ffffff;
+    font-family:'Acme';
+    font-size: 17px;
 }
 button:hover{
-    background-color: cyan;
+    background-color: #07bab3;
     cursor: pointer;
-}
-a:visited{
-    background-color: lightseagreen
 }
